@@ -10,7 +10,7 @@ import Team from "@/components/team";
 import FAQs from "@/components/faqs";
 import Contact from "@/components/contact";
 
-export default function Component() {
+export default function Web() {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-green-50">
       <Header/>

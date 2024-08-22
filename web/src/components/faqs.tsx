@@ -10,7 +10,7 @@ interface FAQItem {
 
 const FAQs: React.FC = () => {
   const faqs: FAQItem[] = [
-    { question: "What makes ST VENTURES different from other VC firms?", answer: "We're not just investors, we're builders. Our team of experienced technologists and entrepreneurs work alongside our portfolio companies, providing hands-on technical and strategic support." },
+    { question: "What makes ST INNOVATIVES different from other VC firms?", answer: "We're not just investors, we're builders. Our team of experienced technologists and entrepreneurs work alongside our portfolio companies, providing hands-on technical and strategic support." },
     { question: "What sectors do you invest in?", answer: "We focus on cutting-edge technology sectors including AI/ML, blockchain, cybersecurity, quantum computing, and enterprise SaaS. We're always excited by novel applications of technology that have the potential to disrupt industries." },
     { question: "What stage companies do you invest in?", answer: "We primarily invest in seed to Series A rounds, but we have the capacity to follow on in later rounds for our most promising portfolio companies." },
     { question: "How involved do you get with your portfolio companies?", answer: "Very involved. We see ourselves as extensions of our portfolio companies' teams. This can range from weekly strategy sessions to having our technical team embed with the company to solve critical challenges." },

@@ -106,9 +106,9 @@ export default function Component() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-green-800">Founder Testimonials</h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {[
-                { name: "John Smith", role: "CEO, TechNova", text: "ST VENTURES didn't just invest, they rolled up their sleeves and helped us build. Their technical expertise and network were game-changers for us. They helped us optimize our AI algorithms, resulting in a 40% improvement in accuracy." },
-                { name: "Emily Wong", role: "Founder, QuantumLeap", text: "The hands-on approach of ST VENTURES was crucial in our journey from seed to acquisition. They're truly builders at heart. Their quantum computing expertise helped us breakthrough a key technical challenge that ultimately led to our successful exit." },
-                { name: "Michael Lee", role: "CTO, CyberShield", text: "ST VENTURES' technical acumen is unparalleled. They didn't just provide capital, they provided invaluable insights that shaped our product strategy. Their cybersecurity partners helped us secure major enterprise clients, accelerating our path to IPO." }
+                { name: "John Smith", role: "CEO, TechNova", text: "ST INNOVATIVES didn't just invest, they rolled up their sleeves and helped us build. Their technical expertise and network were game-changers for us. They helped us optimize our AI algorithms, resulting in a 40% improvement in accuracy." },
+                { name: "Emily Wong", role: "Founder, QuantumLeap", text: "The hands-on approach of ST INNOVATIVES was crucial in our journey from seed to acquisition. They're truly builders at heart. Their quantum computing expertise helped us breakthrough a key technical challenge that ultimately led to our successful exit." },
+                { name: "Michael Lee", role: "CTO, CyberShield", text: "ST INNOVATIVES' technical acumen is unparalleled. They didn't just provide capital, they provided invaluable insights that shaped our product strategy. Their cybersecurity partners helped us secure major enterprise clients, accelerating our path to IPO." }
               ].map((testimonial, index) => (
                 <div key={index} className="bg-white border-green-200 transition-all hover:shadow-lg">
                   <div className="p-6">
@@ -221,7 +221,7 @@ export default function Component() {
             </div>
           </div>
           <div className="mt-6 text-center text-sm text-green-200">
-            © 2023 ST VENTURES. All rights reserved.
+            © 2023 ST INNOVATIVES. All rights reserved.
           </div>
         </div>
       </footer>

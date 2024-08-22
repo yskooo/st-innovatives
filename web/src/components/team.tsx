@@ -31,7 +31,7 @@ const Team: React.FC = () => {
   return (
     <section id="team" className="w-full py-12 md:py-24 lg:py-32 bg-green-50">
       <div className="container px-4 md:px-6">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-green-800">Meet ST VENTURES Team</h2>
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-green-800">Meet Our Team</h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {members.map((member, index) => (
             <div key={index} className="bg-white border-green-200 transition-all hover:shadow-lg">

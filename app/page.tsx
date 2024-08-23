@@ -1,14 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
-import { RocketIcon, BarChartIcon, UsersIcon, BuildingIcon,Badge } from "lucide-react"
+
+"use client"
+
+import { RocketIcon, UsersIcon, BuildingIcon,Badge } from "lucide-react"
 
 import Link from "next/dist/client/link"
-import Header from "@/components/header";
-import Hero from "@/components/hero";
-import Awards from "@/components/awards";
-import Team from "@/components/team";
-import FAQs from "@/components/faqs";
-import Contact from "@/components/contact";
+import Header from "./components/header";
+import Hero from "./components/hero";
+import Awards from "./components/awards";
+import Team from "./components/team";
+import FAQs from "./components/faqs";
+import Contact from "./components/contact";
 
 export default function Web() {
   return (
